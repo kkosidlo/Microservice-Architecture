@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.NotificationService", "SampleApp.NotificationService\SampleApp.NotificationService.csproj", "{ABBA1BFC-4231-4510-9E5A-541DBEE124E6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.RegistrationService", "SampleApp.RegistrationService\SampleApp.RegistrationService.csproj", "{D81CE8F8-69AF-433D-96CF-1C24792EAF08}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Web", "SampleApp.Web\SampleApp.Web.csproj", "{713F93C0-36BA-4877-B8A0-77F09C0EB12F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Messaging", "SampleApp.Messaging\SampleApp.Messaging.csproj", "{13D69E2A-1C5A-477A-848D-918D81FE7B03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp.Messaging", "SampleApp.Messaging\SampleApp.Messaging.csproj", "{13D69E2A-1C5A-477A-848D-918D81FE7B03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.RegistrationService", "SampleApp.RegistrationService\SampleApp.RegistrationService.csproj", "{7A665616-87C0-434E-A9D6-46FBB349E826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.NotificationService", "SampleApp.NotificationService\SampleApp.NotificationService.csproj", "{EC8CB5A5-8E78-44B3-8651-F2974B2AFA10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ABBA1BFC-4231-4510-9E5A-541DBEE124E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABBA1BFC-4231-4510-9E5A-541DBEE124E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABBA1BFC-4231-4510-9E5A-541DBEE124E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABBA1BFC-4231-4510-9E5A-541DBEE124E6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D81CE8F8-69AF-433D-96CF-1C24792EAF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D81CE8F8-69AF-433D-96CF-1C24792EAF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D81CE8F8-69AF-433D-96CF-1C24792EAF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D81CE8F8-69AF-433D-96CF-1C24792EAF08}.Release|Any CPU.Build.0 = Release|Any CPU
 		{713F93C0-36BA-4877-B8A0-77F09C0EB12F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{713F93C0-36BA-4877-B8A0-77F09C0EB12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713F93C0-36BA-4877-B8A0-77F09C0EB12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +25,14 @@ Global
 		{13D69E2A-1C5A-477A-848D-918D81FE7B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13D69E2A-1C5A-477A-848D-918D81FE7B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13D69E2A-1C5A-477A-848D-918D81FE7B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A665616-87C0-434E-A9D6-46FBB349E826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A665616-87C0-434E-A9D6-46FBB349E826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A665616-87C0-434E-A9D6-46FBB349E826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A665616-87C0-434E-A9D6-46FBB349E826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8CB5A5-8E78-44B3-8651-F2974B2AFA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8CB5A5-8E78-44B3-8651-F2974B2AFA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8CB5A5-8E78-44B3-8651-F2974B2AFA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8CB5A5-8E78-44B3-8651-F2974B2AFA10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

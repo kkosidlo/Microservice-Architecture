@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleApp.RegistrationService
 {
@@ -10,6 +6,14 @@ namespace SampleApp.RegistrationService
     {
         static void Main(string[] args)
         {
+            Console.Title = "Registration Service";
+
+            using (var rabbitMqManager = new RabbitMqManager())
+            {
+                rabbitMqManager.ListenForRegisterUserCommand();
+                Console.WriteLine("Listening for RegisterUserCommand.");
+                Console.ReadKey();
+            }
         }
     }
 }

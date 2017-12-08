@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using SampleApp.Messaging;
 using Newtonsoft.Json;
+using SampleApp.RegistrationService.Messages;
+using SampleApp.Web.Messages;
 
 namespace SampleApp.RegistrationService
 {
@@ -19,26 +21,39 @@ namespace SampleApp.RegistrationService
         }
 
         public override void HandleBasicDeliver(
-            string consumerTag, ulong deliveryTag, 
-            bool redelivered, string exchange, 
-            string routingKey, IBasicProperties properties, 
+            string consumerTag, ulong deliveryTag,
+            bool redelivered, string exchange,
+            string routingKey, IBasicProperties properties,
             byte[] body)
         {
             if (properties.ContentType != Constants.JsonMimeType)
                 throw new ArgumentException(
                     $"Can't handle content type { properties.ContentType }");
 
-
-            // Since the value is being sent to the queue as a byte array we first get this byte array and using getstring method change it into string
             var message = Encoding.UTF8.GetString(body);
+            var commandObj =
+                JsonConvert.DeserializeObject<RegisterUserCommand>(
+                    message);
 
-            //Deserialization of string into strongly typed object.
+            Consume(commandObj);
+            _rabbitMqManager.SendAck(deliveryTag);
 
+        }
 
-            // Change the type of project to .netCore for all services.
+        private void Consume(IRegisterUserCommand command)
+        {
+            // Store order registration and get id 
+            int id = 12;
 
+            Console.WriteLine($"Order with id {id} registered");
+            Console.WriteLine("Publishing order registered event");
 
-
+            //notify subscribers that a order is registered
+            var orderRegisteredEvent = new UserRegisteredEvent(command, id);
+            //publish event
+            _rabbitMqManager.SendUserRegisteredEvent(orderRegisteredEvent);
         }
     }
 }
+ 
+
