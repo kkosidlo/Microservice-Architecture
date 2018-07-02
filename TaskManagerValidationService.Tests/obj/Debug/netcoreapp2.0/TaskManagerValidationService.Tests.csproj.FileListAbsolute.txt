@@ -1,0 +1,17 @@
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\TaskManagerValidationService.dll
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\TaskManagerValidationService.pdb
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\obj\Debug\netcoreapp2.0\TaskManagerValidationService.Tests.csproj.CoreCompileInputs.cache
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\obj\Debug\netcoreapp2.0\TaskManagerValidationService.Tests.AssemblyInfoInputs.cache
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\obj\Debug\netcoreapp2.0\TaskManagerValidationService.Tests.AssemblyInfo.cs
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\TaskManagerValidationService.Tests.deps.json
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\TaskManagerValidationService.Tests.runtimeconfig.json
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\TaskManagerValidationService.Tests.runtimeconfig.dev.json
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\TaskManagerValidationService.Tests.dll
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\obj\Debug\netcoreapp2.0\TaskManagerValidationService.Tests.csprojResolveAssemblyReference.cache
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+E:\SimpleTaskManager\SimpleTaskManager\TaskManagerValidationService.Tests\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
